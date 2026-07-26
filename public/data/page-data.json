@@ -1,0 +1,128 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "2004nandakishore@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:2004nandakishore@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8089507965",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+918089507965"
+      },
+      {
+        "type": "website",
+        "label": "www.mygithub.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://github.com/nandakishorea2004"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/nandakishore-a-523943257/"
+      }
+    ]
+  },
+
+  "educationData": {
+    "education": [
+      {
+        "title": "Bharata Mata College, Thrikkakara - 2022-27",
+        "course": "Integrated M.Sc. Computer Science (Artificial Intelligence & Machine Learning)",
+        "description": "Studying Artificial Intelligence, Machine Learning, Data Science, Python Programming, Computer Networks, and Operating Systems."
+      },
+      {
+        "title": "Govt Model Boys HSS, Thrissur - 2020-22",
+        "course": "Computer Science",
+        "description": "Completed Higher Secondary Education with 90%, reflecting academic excellence."
+      },
+      {
+        "title": "Higher Secondary School - 2019-20",
+        "course": "SSLC",
+        "description": "Successfully completed SSLC with Full A+ in all subjects, demonstrating strong academic performance and dedication."
+      }
+    ],
+
+    "skills": [
+      {
+        "name": "Python",
+        "icon": "/images/home/education-skill/python icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Data Analysis",
+        "icon": "/images/home/education-skill/Data Analysis icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "ETL",
+        "icon": "/images/home/education-skill/etl.svg",
+        "rating": 4
+      },
+      {
+        "name": "Flutter",
+        "icon": "/images/home/education-skill/Flutter icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Machine Learning",
+        "icon": "/images/home/education-skill/ML.svg",
+        "rating": 5
+      },
+      {
+        "name": "CI/CD",
+        "icon": "/images/home/education-skill/CICD.svg",
+        "rating": 3
+      }
+    ]
+  },
+
+  "highlights": [
+    {
+      "icon": "fa-solid fa-cloud",
+      "title": "Google Cloud Study Jams",
+      "description": "Successfully completed Google Cloud Foundations and Generative AI Study Jams, gaining practical exposure to cloud technologies and AI concepts."
+    },
+    {
+      "icon": "fa-solid fa-chalkboard-user",
+      "title": "Machine Learning Workshop",
+      "description": "Conducted a one-day Machine Learning workshop, introducing participants to fundamental ML concepts and practical applications."
+    },
+    {
+      "icon": "fa-solid fa-robot",
+      "title": "AI Outreach Sessions",
+      "description": "Conducted Artificial Intelligence awareness sessions for students across multiple schools to encourage interest in emerging technologies."
+    },
+    {
+      "icon": "fa-solid fa-users",
+      "title": "IEDC Student Coordinator",
+      "description": "Served as IEDC Student Coordinator, organizing innovation events, workshops, and startup activities within the campus."
+    }
+  ],
+
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/nandakishore-a-523943257/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "2004nandakishore@gmail.com",
+        "link": "mailto:2004nandakishore@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8089507965",
+        "link": "tel:+918089507965"
+      }
+    ]
+  }
+}

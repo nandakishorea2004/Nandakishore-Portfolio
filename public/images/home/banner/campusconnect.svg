@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="100%" height="100%">
+  <g fill="#00338D">
+    <!-- Left C Arc -->
+    <path d="M 235 180 
+             C 140 180, 90 240, 90 315 
+             C 90 390, 140 450, 235 450 
+             L 260 450 
+             C 185 450, 145 395, 145 315 
+             C 145 235, 185 180, 260 180 
+             Z" />
+
+    <!-- Middle C Arc -->
+    <path d="M 370 180 
+             C 275 180, 225 240, 225 315 
+             C 225 390, 275 450, 370 450 
+             L 395 450 
+             C 320 450, 280 395, 280 315 
+             C 280 235, 320 180, 395 180 
+             Z" />
+
+    <!-- Right Loop / D shape -->
+    <path d="M 445 180 
+             L 600 180 
+             C 660 180, 700 230, 700 315 
+             C 700 400, 660 450, 600 450 
+             L 480 450 
+             L 535 370 
+             L 580 370 
+             C 615 370, 635 345, 635 315 
+             C 635 285, 615 260, 580 260 
+             L 360 260 
+             L 415 180 
+             Z" />
+
+    <!-- CampusConnect Typography -->
+    <text x="400" y="580" 
+          font-family="Arial, Helvetica, sans-serif" 
+          font-weight="900" 
+          font-size="82" 
+          letter-spacing="-1.5" 
+          text-anchor="middle">CampusConnect<tspan font-size="32" dy="-40">®</tspan></text>
+  </g>
+</svg>

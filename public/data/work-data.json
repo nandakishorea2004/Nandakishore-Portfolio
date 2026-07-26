@@ -1,0 +1,16 @@
+{
+  "workData": [
+    {
+      "title": "CampusConnect",
+      "description": "A Flutter and Firebase based campus event and venue booking application that streamlines event scheduling, booking approvals, and student participation.",
+      "image": "/images/work/campusconnect.png",
+      "github": "https://github.com/nandakishorea2004/CampusConnect/tree/c10808a5d112b77480dc77e5bf7fc1b3a38265ed"
+    },
+    {
+      "title": "Drug Consumption Prediction",
+      "description": "Machine learning project for predicting drug usage patterns using demographic and personality data with classification algorithms.",
+      "image": "/images/work/drug.png",
+      "github": "https://github.com/nandakishorea2004/Drug-Consumption-Prediction"
+    }
+  ]
+}
