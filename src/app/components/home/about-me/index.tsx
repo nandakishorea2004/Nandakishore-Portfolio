@@ -2,9 +2,25 @@ import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 
 const AboutMe = () => {
+  const strengths = [
+    "Data Analysis",
+    "Machine Learning",
+    "Python",
+    "SQL",
+    "Power BI",
+    "Flutter",
+    "Firebase",
+    "Problem Solving",
+    "Team Collaboration",
+    "Critical Thinking"
+  ];
+
+  const languages = ["English", "Hindi", "Malayalam"];
+
   return (
     <section>
-      <div className="relative bg-softGray py-10 md:py-32">
+      <div className="relative bg-softGray py-16 md:py-32">
+        {/* Background Pattern */}
         <div className="absolute top-0 w-full px-9">
           <Image
             src={getImgPath("/images/home/about-me/resume-bg-img.svg")}
@@ -17,52 +33,109 @@ const AboutMe = () => {
 
         <div className="relative z-10">
           <div className="container">
-            <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
+
+            {/* Heading */}
+            <div className="flex items-center justify-between border-b border-black pb-7">
               <h2>About Me</h2>
               <p className="text-xl text-black">( 01 )</p>
             </div>
 
-            <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
-              <div className="w-[303px] h-[440px] hidden lg:flex">
+            {/* Content */}
+            <div className="pt-12 xl:pt-16 flex flex-col lg:flex-row gap-12 items-center">
+
+              {/* Profile Image */}
+              <div className="hidden lg:block w-[320px]">
                 <Image
                   src={getImgPath("/images/home/about-me/about banner me.png")}
-                  alt="about-banner"
-                  width={303}
-                  height={440}
-                  className="w-full h-full"
+                  alt="About Me"
+                  width={320}
+                  height={450}
+                  className="rounded-2xl shadow-2xl object-cover"
                 />
               </div>
 
-              <div className="w-full lg:max-w-2xl flex-1">
-                <p>
-                  Passionate data analyst with strong technical aptitude and a drive to solve complex problems like analytical and real-world. I thrive in technical roles where I can apply my knowledge to deliver the best results, and I hardly believe in determination and Adaptability to achieve meaningful outcomes.
+              {/* Text Content */}
+              <div className="flex-1">
+
+                <h3 className="text-3xl font-bold text-black mb-6">
+                  Hello, I'm Nandakishore 👋
+                </h3>
+
+                <p className="text-lg leading-8 text-gray-700">
+                  I am an Integrated M.Sc. Computer Science student specializing
+                  in <span className="font-semibold text-lime-600">Artificial Intelligence & Machine Learning</span>
+                  at Bharata Mata College, Thrikkakara.
+
+                  <br /><br />
+
+                  Passionate about
+                  <span className="font-semibold text-lime-600"> Data Analytics</span>,
+                  <span className="font-semibold text-lime-600"> Machine Learning</span>,
+                  and
+                  <span className="font-semibold text-lime-600"> Artificial Intelligence</span>,
+                  I enjoy transforming raw data into meaningful insights and
+                  developing intelligent software solutions that address
+                  real-world challenges.
+
+                  <br /><br />
+
+                  I am continuously expanding my expertise in analytics,
+                  visualization, software development, and cloud technologies
+                  while actively participating in innovation programs,
+                  workshops, and technical communities.
                 </p>
 
-                
+                {/* Key Strengths */}
+                <div className="mt-10">
+                  <h4 className="text-2xl font-semibold text-black mb-5">
+                    Key Strengths
+                  </h4>
 
-                <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
-                  <div className="flex items-center gap-3.5">
-                    <Image
-                      src={getImgPath("/images/icon/lang-icon.svg")}
-                      alt="lang-icon"
-                      width={30}
-                      height={30}
-                    />
-                    <p className="text-base xl:text-xl text-black">Language</p>
-                  </div>
-                  <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English", "Hindi", "Malayalam"].map((lang) => (
-                      <p
-                        key={lang}
-                        className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
+                  <div className="flex flex-wrap gap-3">
+                    {strengths.map((skill) => (
+                      <span
+                        key={skill}
+                        className="rounded-full border-2 border-lime-500 px-5 py-2 text-sm font-medium text-lime-600 transition-all duration-300 hover:bg-lime-500 hover:text-white hover:shadow-[0_0_18px_rgba(132,204,22,0.5)] hover:scale-105 cursor-default"
                       >
-                        {lang}
-                      </p>
+                        {skill}
+                      </span>
                     ))}
                   </div>
                 </div>
+
+                {/* Languages */}
+                <div className="mt-12">
+
+                  <div className="flex items-center gap-3 mb-5">
+                    <Image
+                      src={getImgPath("/images/icon/lang-icon.svg")}
+                      alt="Language"
+                      width={30}
+                      height={30}
+                    />
+
+                    <h4 className="text-2xl font-semibold text-black">
+                      Languages
+                    </h4>
+                  </div>
+
+                  <div className="flex flex-wrap gap-3">
+                    {languages.map((lang) => (
+                      <span
+                        key={lang}
+                        className="rounded-full border border-gray-300 bg-white px-5 py-2 text-base font-medium transition-all duration-300 hover:border-lime-500 hover:bg-lime-500 hover:text-white hover:shadow-md"
+                      >
+                        {lang}
+                      </span>
+                    ))}
+                  </div>
+
+                </div>
+
               </div>
+
             </div>
+
           </div>
         </div>
       </div>

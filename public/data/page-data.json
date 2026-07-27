@@ -15,7 +15,7 @@
       },
       {
         "type": "website",
-        "label": "www.mygithub.com",
+        "label": "github.com/nandakishorea2004",
         "icon": "/images/icon/web-icon.svg",
         "link": "https://github.com/nandakishorea2004"
       }
@@ -32,52 +32,46 @@
   "educationData": {
     "education": [
       {
-        "title": "Bharata Mata College, Thrikkakara - 2022-27",
+        "title": "Bharata Mata College, Thrikkakara (2022–2027)",
         "course": "Integrated M.Sc. Computer Science (Artificial Intelligence & Machine Learning)",
-        "description": "Studying Artificial Intelligence, Machine Learning, Data Science, Python Programming, Computer Networks, and Operating Systems."
+        "description": "Studying Artificial Intelligence, Machine Learning, Data Science, Python Programming, Computer Networks, Operating Systems, and Software Development."
       },
       {
-        "title": "Govt Model Boys HSS, Thrissur - 2020-22",
-        "course": "Computer Science",
-        "description": "Completed Higher Secondary Education with 90%, reflecting academic excellence."
+        "title": "Govt. Model Boys HSS, Thrissur (2020–2022)",
+        "course": "Higher Secondary Education - Computer Science",
+        "description": "Completed Higher Secondary Education with 90%, demonstrating strong academic performance."
       },
       {
-        "title": "Higher Secondary School - 2019-20",
+        "title": "Santha HSS Avanoor, Thrissur (2019–2020)",
         "course": "SSLC",
-        "description": "Successfully completed SSLC with Full A+ in all subjects, demonstrating strong academic performance and dedication."
+        "description": "Completed SSLC with Full A+ in all subjects, reflecting academic excellence and dedication."
       }
     ],
 
     "skills": [
       {
         "name": "Python",
-        "icon": "/images/home/education-skill/python icon.svg",
-        "rating": 5
+        "icon": "/images/home/education-skill/python icon.svg"
       },
       {
         "name": "Data Analysis",
-        "icon": "/images/home/education-skill/Data Analysis icon.svg",
-        "rating": 5
+        "icon": "/images/home/education-skill/Data Analysis icon.svg"
       },
       {
         "name": "ETL",
-        "icon": "/images/home/education-skill/etl.svg",
-        "rating": 4
+        "icon": "/images/home/education-skill/etl.svg"
       },
       {
         "name": "Flutter",
-        "icon": "/images/home/education-skill/Flutter icon.svg",
-        "rating": 4
+        "icon": "/images/home/education-skill/Flutter icon.svg"
       },
       {
         "name": "Machine Learning",
-        "icon": "/images/home/education-skill/ML.svg",
-        "rating": 5
+        "icon": "/images/home/education-skill/ML.svg"
       },
       {
         "name": "CI/CD",
-        "icon": "/images/home/education-skill/CICD.svg",
-        "rating": 3
+        "icon": "/images/home/education-skill/CICD.svg"
       }
     ]
   },
@@ -86,22 +80,22 @@
     {
       "icon": "fa-solid fa-cloud",
       "title": "Google Cloud Study Jams",
-      "description": "Successfully completed Google Cloud Foundations and Generative AI Study Jams, gaining practical exposure to cloud technologies and AI concepts."
+      "description": "Completed Google Cloud Foundations and Generative AI Study Jams, gaining hands-on exposure to cloud computing and AI technologies."
     },
     {
       "icon": "fa-solid fa-chalkboard-user",
       "title": "Machine Learning Workshop",
-      "description": "Conducted a one-day Machine Learning workshop, introducing participants to fundamental ML concepts and practical applications."
+      "description": "Conducted a one-day Machine Learning workshop introducing participants to ML concepts and practical implementations."
     },
     {
       "icon": "fa-solid fa-robot",
       "title": "AI Outreach Sessions",
-      "description": "Conducted Artificial Intelligence awareness sessions for students across multiple schools to encourage interest in emerging technologies."
+      "description": "Conducted Artificial Intelligence awareness sessions for school students to promote interest in emerging technologies."
     },
     {
       "icon": "fa-solid fa-users",
       "title": "IEDC Student Coordinator",
-      "description": "Served as IEDC Student Coordinator, organizing innovation events, workshops, and startup activities within the campus."
+      "description": "Organized innovation events, technical workshops, hackathons, and startup initiatives as an IEDC Student Coordinator."
     }
   ],
 
@@ -110,6 +104,10 @@
       {
         "title": "LinkedIn",
         "href": "https://www.linkedin.com/in/nandakishore-a-523943257/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/nandakishorea2004"
       }
     ],
     "contactInfo": [
